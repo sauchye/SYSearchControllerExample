@@ -15,6 +15,7 @@
 		023A39FC1D8B9FD300162A99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023A39FA1D8B9FD300162A99 /* LaunchScreen.storyboard */; };
 		023A3A071D8B9FD300162A99 /* SYSearchControllerExmapleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A3A061D8B9FD300162A99 /* SYSearchControllerExmapleTests.m */; };
 		023A3A121D8B9FD300162A99 /* SYSearchControllerExmapleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A3A111D8B9FD300162A99 /* SYSearchControllerExmapleUITests.m */; };
+		0292759A1E8137FA005328D8 /* SearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029275991E8137FA005328D8 /* SearchResultController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		023A3A0D1D8B9FD300162A99 /* SYSearchControllerExmapleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYSearchControllerExmapleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		023A3A111D8B9FD300162A99 /* SYSearchControllerExmapleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYSearchControllerExmapleUITests.m; sourceTree = "<group>"; };
 		023A3A131D8B9FD300162A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029275981E8137FA005328D8 /* SearchResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultController.h; sourceTree = "<group>"; };
+		029275991E8137FA005328D8 /* SearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				023A39F01D8B9FD300162A99 /* AppDelegate.m */,
 				023A39F21D8B9FD300162A99 /* ViewController.h */,
 				023A39F31D8B9FD300162A99 /* ViewController.m */,
+				029275981E8137FA005328D8 /* SearchResultController.h */,
+				029275991E8137FA005328D8 /* SearchResultController.m */,
 				023A39F51D8B9FD300162A99 /* Main.storyboard */,
 				023A39F81D8B9FD300162A99 /* Assets.xcassets */,
 				023A39FA1D8B9FD300162A99 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0292759A1E8137FA005328D8 /* SearchResultController.m in Sources */,
 				023A39F41D8B9FD300162A99 /* ViewController.m in Sources */,
 				023A39F11D8B9FD300162A99 /* AppDelegate.m in Sources */,
 				023A39EE1D8B9FD300162A99 /* main.m in Sources */,
@@ -507,6 +513,7 @@
 				023A3A181D8B9FD300162A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		023A3A191D8B9FD300162A99 /* Build configuration list for PBXNativeTarget "SYSearchControllerExmapleTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				023A3A1B1D8B9FD300162A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		023A3A1C1D8B9FD300162A99 /* Build configuration list for PBXNativeTarget "SYSearchControllerExmapleUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				023A3A1E1D8B9FD300162A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
